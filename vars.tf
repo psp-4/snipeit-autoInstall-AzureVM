@@ -1,0 +1,3 @@
+variable "USERNAME" {
+  default = "partha"
+}
