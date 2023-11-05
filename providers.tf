@@ -1,3 +1,4 @@
+// Specifying provider dependencies
 terraform {
   required_providers {
     azurerm = {
@@ -7,6 +8,7 @@ terraform {
   }
 }
 
+// Specifying the provider
 provider "azurerm" {
   features {}
 }
